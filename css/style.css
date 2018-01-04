@@ -1,0 +1,54 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+input {
+    font-size: 12px;
+}
+
+h1 {
+    color: #525454;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.options-box {
+    background: #fff;
+    border: 1px solid #999;
+    width: 400px;
+    padding: 32px
+}
+
+.filter-place {
+    width: 80%;
+    padding: 8px;
+    line-height: 32px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 960px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .options-box{
+        border: 0;
+    }
+}
