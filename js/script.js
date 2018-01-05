@@ -156,8 +156,7 @@ initMap = function () {
     }
 
     var showPlaceInfo = function (place) {
-        //console.log(placeIndex);
-        // hideListings();
+        
         markers[place.id].set(map);
         bounds.extend(markers[place.id].position);
         google.maps.event.trigger(markers[place.id], 'click');
@@ -169,8 +168,6 @@ initMap = function () {
             markers[place.id].setAnimation(null);
         }, 1200);
         markers[place.id].setMap(map);
-        // map.setZoom(15);
-        // map.fitBounds(bounds);
     };
 
     function PlacesViewModel() {
