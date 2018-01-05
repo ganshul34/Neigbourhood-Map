@@ -22,20 +22,12 @@ var locations = [
         index:1
     },
     {
-        title: 'Japanese Garden', 
-        location: {
-            lat: 30.7045 , 
-            lng: 76.7843 
-        }, 
-        index:2
-    },
-    {
         title: 'Sukhna Lake', 
         location: {
             lat: 30.7421, 
             lng: 76.8188 
         }, 
-        index:3
+        index:2
     },
     {
         title: 'Rose Garden', 
@@ -43,7 +35,7 @@ var locations = [
             lat: 30.7475 , 
             lng:76.7842 
         }, 
-        index:4
+        index:3
     },
     {
         title: 'The Picaddly Hotel', 
@@ -51,7 +43,7 @@ var locations = [
             lat: 30.7325 , 
             lng: 76.7776 
         }, 
-        index:5
+        index:4
     },
     {
         title: 'Garden Of Silence', 
@@ -59,7 +51,7 @@ var locations = [
             lat: 30.7384 , 
             lng: 76.8301
         }, 
-        index:6
+        index:5
     },
 ];
 
